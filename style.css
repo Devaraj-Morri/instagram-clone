@@ -1,0 +1,274 @@
+@media(max-width:990px)  {
+    .nav{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: white;
+    
+    }
+    .nav-right{
+        display: flex;
+        gap: 20px;
+        font-size: 25px;
+    }
+    
+    .story-container{
+        width: auto;
+        margin: 80px auto;
+        display: flex;
+        gap: 20px;
+        overflow: scroll;
+    }
+    .story-container::-webkit-scrollbar{
+        display: none;
+    }
+    .story-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .story-img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 3px solid rgb(249, 85, 110);
+        object-fit: cover;
+    }
+    .feeds-container{
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        margin-bottom: 60px;
+        margin-top: -50px;
+    }
+    .feed-card{
+        width: 100%;
+        border: 1px solid lightgray;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    .feed-img{
+        width:50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .feed-profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:5px 10px;
+    }
+    }
+    .feed-left{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .feed-btn{
+        border: none;
+        background-color: rgb(226, 223, 223);
+        padding: 8px 16px;
+        border-radius: 5px;
+        font-weight: 600;
+        
+    }
+    .post-img{
+        width: 100%;
+    }
+    .feed-footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        
+    }
+    .feed-footer-left{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .heart_icon{
+        font-size: 25px;
+        
+    }
+    .footer_icon{
+        width: 21px;
+        height: 21px;
+    }
+    .chat_icon{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .footer-container{
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+        box-shadow: 0 0 5px lightgray;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: white;
+    }
+    .footer-container img{
+        width: 20px;
+        height: 20px;
+    }
+    .footer-profile{
+        border-radius: 50%;
+    }
+}
+
+/* small screen */
+@media(min-width:990px)  {
+    .nav{
+        width: 990px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: white;
+    
+    }
+    .nav-right{
+        display: flex;
+        gap: 20px;
+        font-size: 25px;
+    }
+    
+    .story-container{
+        width: 990px;
+        margin: 80px auto;
+        display: flex;
+        gap: 20px;
+        overflow: scroll;
+    }
+    .story-container::-webkit-scrollbar{
+        display: none;
+    }
+    .story-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .story-img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 3px solid rgb(249, 85, 110);
+        object-fit: cover;
+    }
+    .feeds-container{
+        width: 990px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+        margin-top: -50px;
+    }
+    .feed-card{
+        width: 300px;
+        border: 1px solid lightgray;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    .feed-img{
+        width:50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .feed-profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:5px 10px;
+    }
+    }
+    .feed-left{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .feed-btn{
+        border: none;
+        background-color: rgb(226, 223, 223);
+        padding: 8px 16px;
+        border-radius: 5px;
+        font-weight: 600;
+        
+    }
+    .post-img{
+        width: 100%;
+    }
+    .feed-footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        
+    }
+    .feed-footer-left{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .heart_icon{
+        font-size: 25px;
+        
+    }
+    .footer_icon{
+        width: 21px;
+        height: 21px;
+    }
+    .chat_icon{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .footer-container{
+        width: 990px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+        box-shadow: 0 0 5px lightgray;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: white;
+    }
+    .footer-container img{
+        width: 40px;
+        height: 40px;
+    }
+    .footer-profile{
+        border-radius: 50%;
+    }
+}
