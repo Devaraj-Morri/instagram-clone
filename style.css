@@ -14,6 +14,11 @@
         background-color: white;
     
     }
+    .logo{
+        width: 200px;
+        height: 80px;
+        transition: 0.5s;
+    }
     .nav-right{
         display: flex;
         gap: 20px;
@@ -132,6 +137,14 @@
     }
     .footer-profile{
         border-radius: 50%;
+    }
+}
+
+@media(max-width:425px){
+    .logo{
+        width: 120px;
+        height: 50px;
+        transition: 0.5s;
     }
 }
 
